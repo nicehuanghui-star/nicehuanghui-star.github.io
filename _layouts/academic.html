@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/jpeg" href="{{ '/images/hui-huang.jpg' | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }} - {{ site.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:image" content="{{ '/images/hui-huang.jpg' | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <script src="{{ '/assets/js/huihuang.js' | relative_url }}" defer></script>
+</head>
+<body class="academic-body">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="academic-site">
+    {% include huihuang/profile.html %}
+    {% include huihuang/navigation.html %}
+    <main id="main-content" class="academic-content" tabindex="-1">
+      {% unless page.homepage %}<h2 class="page-heading">{{ page.title | escape }}</h2>{% endunless %}
+      {{ content }}
+    </main>
+    <footer class="academic-footer">
+      <p>Last updated: <time datetime="{{ site.data.huihuang.updated }}">{{ site.data.huihuang.updated }}</time> · <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></p>
+    </footer>
+  </div>
+</body>
+</html>

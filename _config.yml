@@ -169,6 +169,7 @@ exclude:
   - AGENTS.md
   - README.md
   - TEMPLATE-VERIFICATION.md
+  - design-qa.md
   - verify_resume.py
   - _posts
   - _drafts

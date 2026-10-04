@@ -1,15 +1,17 @@
 main:
   - title: "Biography"
-    url: /
+    url: "/#biography"
+  - title: "Research"
+    url: "/#research"
   - title: "Publications"
-    url: /publications/
+    url: "/#publications"
   - title: "Projects"
-    url: /projects/
+    url: "/#projects"
+  - title: "Teaching"
+    url: "/#teaching"
   - title: "Students"
-    url: /students/
-  - title: "Service"
-    url: /service/
-  - title: "Honors"
-    url: /awards/
-  - title: "CV"
-    url: /cv/
+    url: "/#students"
+  - title: "Professional Activities"
+    url: "/#service"
+  - title: "Awards"
+    url: "/#awards"

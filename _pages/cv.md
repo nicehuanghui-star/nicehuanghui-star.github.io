@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: academic
 title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+author_profile: false
 ---
 
 <p class="cv-actions"><button type="button" class="btn btn--primary" id="print-cv">Print / Save as PDF</button></p>
@@ -21,9 +21,13 @@ author_profile: true
 
 {% include huihuang/projects.html %}
 
-## Selected Publications
+## Publications
 
 {% include huihuang/publications.html %}
+
+## Teaching
+
+{% include huihuang/teaching.html %}
 
 ## Undergraduate Supervision
 

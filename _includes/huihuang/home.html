@@ -1,0 +1,32 @@
+<section id="biography" class="academic-section">
+  <h2>Biography</h2>
+  {% for paragraph in site.data.huihuang.biography_en %}<p>{{ paragraph | escape }}</p>{% endfor %}
+</section>
+<section id="research" class="academic-section">
+  <h2>Research Interests</h2>
+  {% include huihuang/research.html %}
+</section>
+<section id="publications" class="academic-section">
+  <h2>Publications</h2>
+  {% include huihuang/publications.html %}
+</section>
+<section id="projects" class="academic-section">
+  <h2>Research Projects</h2>
+  {% include huihuang/projects.html %}
+</section>
+<section id="teaching" class="academic-section">
+  <h2>Teaching</h2>
+  {% include huihuang/teaching.html %}
+</section>
+<section id="students" class="academic-section">
+  <h2>Undergraduate Supervision</h2>
+  {% include huihuang/students.html %}
+</section>
+<section id="service" class="academic-section">
+  <h2>Professional Activities</h2>
+  {% include huihuang/service.html %}
+</section>
+<section id="awards" class="academic-section">
+  <h2>Honors and Awards</h2>
+  {% include huihuang/awards.html %}
+</section>

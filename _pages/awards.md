@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: academic
 title: "Honors and Awards"
 permalink: /awards/
-author_profile: true
+author_profile: false
 ---
 
 {% include huihuang/awards.html %}

@@ -25,7 +25,7 @@
   "cv": "",
   "biography": {
     "zh": "黄晖，工学博士，海南大学计算机科学与技术学院副教授。2019 年 9 月至 2024 年 6 月在加拿大戴尔豪斯大学攻读计算机科学专业博士学位，2024 年 11 月加入海南大学。\n研究主要围绕深度强化学习、边缘计算、边缘智能与智慧医疗展开，关注动态网络环境下实时任务卸载、计算资源分配和安全约束决策。具体研究涵盖截止期感知与部分可观测条件下的卸载策略、基于约束强化学习的安全关键任务调度，以及分布式编码机器学习中的工作负载分配、工作节点选择和多智能体协同；同时关注绿色计算与强化学习驱动的功耗管理。\n相关研究成果发表于 IEEE Transactions on Network Science and Engineering、IEEE Transactions on Cognitive Communications and Networking、IEEE Transactions on Industrial Informatics、IEEE Internet of Things Journal、ACM Transactions on Sensor Networks 等期刊及 IEEE ICC、GLOBECOM、VTC 等国际会议。\n主持海南省自然科学基金面上项目“数字化背景下基于深度强化学习移动边缘计算驱动的智慧康养”。担任 IEEE ICC、GLOBECOM、FCN、PST 等会议技术程序委员会委员，以及多本 IEEE 期刊审稿人；获评 2024 年 IEEE Transactions on Mobile Computing 和 IEEE Transactions on Network Science and Engineering 优秀审稿人。",
-    "en": "I am an Associate Professor in the School of Computer Science and Technology at Hainan University. I pursued my Ph.D. in Computer Science at Dalhousie University, Canada, from September 2019 to June 2024 and joined Hainan University in November 2024.\nMy research focuses on deep reinforcement learning, edge computing, edge intelligence, and intelligent healthcare. I study real-time task offloading, resource allocation, and safety-constrained decisions in dynamic networks. Specific topics include deadline-aware offloading under partial observability, constrained reinforcement learning for safety-critical scheduling, and workload allocation, worker selection, and multi-agent coordination in distributed coded machine learning. I also work on green computing and reinforcement-learning-based power management.\nMy work has appeared in IEEE Transactions on Network Science and Engineering, IEEE Transactions on Cognitive Communications and Networking, IEEE Transactions on Industrial Informatics, IEEE Internet of Things Journal, ACM Transactions on Sensor Networks, and international conferences including IEEE ICC, GLOBECOM, and VTC.\nI have led a general project funded by the Hainan Provincial Natural Science Foundation on deep reinforcement learning and mobile edge computing for intelligent healthcare. I serve on technical program committees for IEEE ICC, GLOBECOM, FCN, and PST and review for IEEE journals. I received Outstanding Reviewer recognition from both IEEE Transactions on Mobile Computing and IEEE Transactions on Network Science and Engineering in 2024."
+    "en": "I am an Associate Professor in the School of Computer Science and Technology at Hainan University, which I joined in November 2024. I received my Ph.D. in Computer Science from Dalhousie University, Canada, in June 2024, following doctoral studies from September 2019 to June 2024.\nMy research focuses on deep reinforcement learning, edge computing, and edge intelligence, with applications to intelligent healthcare and energy-efficient computing. I investigate how learning-based decision-making can support real-time task offloading and resource allocation in dynamic, resource-constrained networks. My work addresses deadline-aware offloading under partial observability, constrained reinforcement learning for safety-critical tasks, and multi-agent approaches to workload allocation and worker selection in distributed coded machine learning. I also study reinforcement-learning-based power management.\nMy research has been published in IEEE Transactions on Network Science and Engineering, IEEE Transactions on Cognitive Communications and Networking, IEEE Transactions on Industrial Informatics, IEEE Internet of Things Journal, and ACM Transactions on Sensor Networks, as well as at IEEE ICC, GLOBECOM, and VTC. I have served as Principal Investigator on a General Project funded by the Hainan Provincial Natural Science Foundation, focusing on deep reinforcement learning and mobile edge computing for intelligent healthcare. My professional service includes technical program committee membership for ICC, GLOBECOM, FCN, and PST, and reviewing for IEEE journals. In 2024, I received Outstanding Reviewer recognition from IEEE Transactions on Mobile Computing and IEEE Transactions on Network Science and Engineering."
   },
   "researchDraft": false,
   "research": [
@@ -76,14 +76,16 @@
       "venue": "IEEE Transactions on Cloud Computing",
       "type": "journal",
       "status": "accepted",
-      "acceptedDate": "2026-10-01"
+      "acceptedDate": "2026-10-01",
+      "shortVenue": "TCC"
     },
     {
       "title": "Diversity-Driven Multi-Expert Deep Reinforcement Learning for Adaptive Mobile Edge Computing",
       "venue": "IEEE GLOBECOM 2026 · Selected Areas in Communications: Cloud/Edge Computing and Networking",
       "type": "conference",
       "status": "accepted",
-      "acceptedDate": "2026-07-31"
+      "acceptedDate": "2026-07-31",
+      "shortVenue": "GLOBECOM"
     },
     {
       "title": "Multi-Agent Transformer-Based Workload Allocation and Worker Selection in Distributed Coded Machine Learning",
@@ -92,7 +94,8 @@
       "year": 2026,
       "onlineYear": 2025,
       "type": "journal",
-      "doi": "https://doi.org/10.1109/TCCN.2025.3614383"
+      "doi": "https://doi.org/10.1109/TCCN.2025.3614383",
+      "shortVenue": "TCCN"
     },
     {
       "title": "Safety-Critical Offloading with Constrained Reinforcement Learning for Multi-access Edge Computing",
@@ -100,7 +103,8 @@
       "venue": "ACM Transactions on Sensor Networks, vol. 21, no. 2, pp. 1–37",
       "year": 2025,
       "type": "journal",
-      "doi": "https://doi.org/10.1145/3715695"
+      "doi": "https://doi.org/10.1145/3715695",
+      "shortVenue": "TOSN"
     },
     {
       "title": "DAS: A DRL-Based Scheme for Workload Allocation and Worker Selection in Distributed Coded Machine Learning",
@@ -108,7 +112,8 @@
       "venue": "IEEE Internet of Things Journal, vol. 11, no. 15, pp. 26076–26090",
       "year": 2024,
       "type": "journal",
-      "doi": "https://doi.org/10.1109/JIOT.2024.3394714"
+      "doi": "https://doi.org/10.1109/JIOT.2024.3394714",
+      "shortVenue": "IoT-J"
     },
     {
       "title": "6G-Empowered Offloading for Realtime Applications in Multi-Access Edge Computing",
@@ -117,7 +122,8 @@
       "year": 2023,
       "onlineYear": 2022,
       "type": "journal",
-      "doi": "https://doi.org/10.1109/TNSE.2022.3188921"
+      "doi": "https://doi.org/10.1109/TNSE.2022.3188921",
+      "shortVenue": "TNSE"
     },
     {
       "title": "DRL-Based Workload Allocation for Distributed Coded Machine Learning",
@@ -125,7 +131,8 @@
       "venue": "IEEE International Conference on Communications (ICC), pp. 3175–3180",
       "year": 2023,
       "type": "conference",
-      "doi": "https://doi.org/10.1109/ICC45041.2023.10278586"
+      "doi": "https://doi.org/10.1109/ICC45041.2023.10278586",
+      "shortVenue": "ICC"
     },
     {
       "title": "RLC: A Reinforcement Learning Based Charging Scheme for Battery Swap Stations",
@@ -133,7 +140,8 @@
       "venue": "IEEE Global Communications Conference (GLOBECOM), pp. 4176–4181",
       "year": 2023,
       "type": "conference",
-      "doi": "https://doi.org/10.1109/GLOBECOM54140.2023.10436949"
+      "doi": "https://doi.org/10.1109/GLOBECOM54140.2023.10436949",
+      "shortVenue": "GLOBECOM"
     },
     {
       "title": "Deadline-Aware Task Offloading With Partially-Observable Deep Reinforcement Learning for Multi-Access Edge Computing",
@@ -142,7 +150,8 @@
       "year": 2022,
       "onlineYear": 2021,
       "type": "journal",
-      "doi": "https://doi.org/10.1109/TNSE.2021.3115054"
+      "doi": "https://doi.org/10.1109/TNSE.2021.3115054",
+      "shortVenue": "TNSE"
     },
     {
       "title": "Deep Reinforcement Learning Based Admission Control for Throughput Maximization in Mobile Edge Computing",
@@ -150,7 +159,8 @@
       "venue": "IEEE 94th Vehicular Technology Conference (VTC2021-Fall), pp. 1–6",
       "year": 2021,
       "type": "conference",
-      "doi": "https://doi.org/10.1109/VTC2021-FALL52928.2021.9625281"
+      "doi": "https://doi.org/10.1109/VTC2021-FALL52928.2021.9625281",
+      "shortVenue": "VTC"
     },
     {
       "title": "Reinforcement Learning Based Offloading for Realtime Applications in Mobile Edge Computing",
@@ -158,7 +168,8 @@
       "venue": "IEEE International Conference on Communications (ICC), pp. 1–6",
       "year": 2020,
       "type": "conference",
-      "doi": "https://doi.org/10.1109/ICC40277.2020.9148748"
+      "doi": "https://doi.org/10.1109/ICC40277.2020.9148748",
+      "shortVenue": "ICC"
     },
     {
       "title": "Autonomous Power Management With Double-Q Reinforcement Learning Method",
@@ -167,7 +178,8 @@
       "year": 2020,
       "onlineYear": 2019,
       "type": "journal",
-      "doi": "https://doi.org/10.1109/TII.2019.2953932"
+      "doi": "https://doi.org/10.1109/TII.2019.2953932",
+      "shortVenue": "TII"
     }
   ],
   "projects": [
@@ -237,7 +249,20 @@
     }
   ],
   "patents": [],
-  "teaching": [],
+  "teaching": [
+    {
+      "title": {
+        "zh": "计算系统结构",
+        "en": "Computer Architecture"
+      }
+    },
+    {
+      "title": {
+        "zh": "算法分析与设计",
+        "en": "Algorithm Analysis and Design"
+      }
+    }
+  ],
   "service": [
     {
       "title": {
@@ -313,9 +338,8 @@
     "主持海南省自然科学基金面上项目“数字化背景下基于深度强化学习移动边缘计算驱动的智慧康养”。担任 IEEE ICC、GLOBECOM、FCN、PST 等会议技术程序委员会委员，以及多本 IEEE 期刊审稿人；获评 2024 年 IEEE Transactions on Mobile Computing 和 IEEE Transactions on Network Science and Engineering 优秀审稿人。"
   ],
   "biography_en": [
-    "I am an Associate Professor in the School of Computer Science and Technology at Hainan University. I pursued my Ph.D. in Computer Science at Dalhousie University, Canada, from September 2019 to June 2024 and joined Hainan University in November 2024.",
-    "My research focuses on deep reinforcement learning, edge computing, edge intelligence, and intelligent healthcare. I study real-time task offloading, resource allocation, and safety-constrained decisions in dynamic networks. Specific topics include deadline-aware offloading under partial observability, constrained reinforcement learning for safety-critical scheduling, and workload allocation, worker selection, and multi-agent coordination in distributed coded machine learning. I also work on green computing and reinforcement-learning-based power management.",
-    "My work has appeared in IEEE Transactions on Network Science and Engineering, IEEE Transactions on Cognitive Communications and Networking, IEEE Transactions on Industrial Informatics, IEEE Internet of Things Journal, ACM Transactions on Sensor Networks, and international conferences including IEEE ICC, GLOBECOM, and VTC.",
-    "I have led a general project funded by the Hainan Provincial Natural Science Foundation on deep reinforcement learning and mobile edge computing for intelligent healthcare. I serve on technical program committees for IEEE ICC, GLOBECOM, FCN, and PST and review for IEEE journals. I received Outstanding Reviewer recognition from both IEEE Transactions on Mobile Computing and IEEE Transactions on Network Science and Engineering in 2024."
+    "I am an Associate Professor in the School of Computer Science and Technology at Hainan University, which I joined in November 2024. I received my Ph.D. in Computer Science from Dalhousie University, Canada, in June 2024, following doctoral studies from September 2019 to June 2024.",
+    "My research focuses on deep reinforcement learning, edge computing, and edge intelligence, with applications to intelligent healthcare and energy-efficient computing. I investigate how learning-based decision-making can support real-time task offloading and resource allocation in dynamic, resource-constrained networks. My work addresses deadline-aware offloading under partial observability, constrained reinforcement learning for safety-critical tasks, and multi-agent approaches to workload allocation and worker selection in distributed coded machine learning. I also study reinforcement-learning-based power management.",
+    "My research has been published in IEEE Transactions on Network Science and Engineering, IEEE Transactions on Cognitive Communications and Networking, IEEE Transactions on Industrial Informatics, IEEE Internet of Things Journal, and ACM Transactions on Sensor Networks, as well as at IEEE ICC, GLOBECOM, and VTC. I have served as Principal Investigator on a General Project funded by the Hainan Provincial Natural Science Foundation, focusing on deep reinforcement learning and mobile edge computing for intelligent healthcare. My professional service includes technical program committee membership for ICC, GLOBECOM, FCN, and PST, and reviewing for IEEE journals. In 2024, I received Outstanding Reviewer recognition from IEEE Transactions on Mobile Computing and IEEE Transactions on Network Science and Engineering."
   ]
 }

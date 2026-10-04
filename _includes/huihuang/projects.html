@@ -1,4 +1,5 @@
+<ul class="academic-list">
 {% for item in site.data.huihuang.projects %}
-<h3>{{ item.title.en | escape }}</h3>
-<p>{{ item.detail.en | escape }}</p>
+  <li>{{ item.title.en | escape }}. {{ item.detail.en | escape }}.</li>
 {% endfor %}
+</ul>

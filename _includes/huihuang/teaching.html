@@ -1,0 +1,5 @@
+<ul class="academic-list">
+{% for course in site.data.huihuang.teaching %}
+  <li>{{ course.title.en | escape }}</li>
+{% endfor %}
+</ul>

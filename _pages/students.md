@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: academic
 title: "Undergraduate Supervision"
 permalink: /students/
-author_profile: true
+author_profile: false
 ---
 
 {% include huihuang/students.html %}

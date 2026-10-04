@@ -1,11 +1,1 @@
-<li class="hui-publication">
-  <strong>{{ publication.title | escape }}</strong>
-  {% if publication.authors %}<p>{{ publication.authors | escape }}</p>{% endif %}
-  <p class="publication-meta">{{ publication.venue | escape }}{% if publication.year %} · {{ publication.year }}{% endif %}</p>
-  {% if publication.status == "accepted" %}
-    <p class="accepted-label">Accepted · Acceptance date: {{ publication.acceptedDate | escape }}</p>
-  {% elsif publication.onlineYear and publication.onlineYear != publication.year %}
-    <p class="publication-meta">First published online: {{ publication.onlineYear }} · Issue year: {{ publication.year }}</p>
-  {% endif %}
-  {% if publication.doi %}<p><a href="{{ publication.doi | escape }}" target="_blank" rel="noopener noreferrer">DOI / Publisher page</a></p>{% endif %}
-</li>
+<li class="hui-publication"><span class="publication-tag">[{{ publication.shortVenue | escape }}{% if publication.status == "accepted" %} · Accepted{% elsif publication.year %}'{{ publication.year | modulo: 100 }}{% endif %}]</span> {% if publication.authors %}{{ publication.authors | escape | replace: 'Hui Huang', '<strong>Hui Huang</strong>' }}. {% endif %}&ldquo;{{ publication.title | escape }}.&rdquo; {% assign venue_name = publication.venue | split: ', ' | first %}<em>{{ venue_name | escape }}</em>{{ publication.venue | remove_first: venue_name | escape }}{% if publication.year %}, {{ publication.year }}{% endif %}. {% if publication.status == "accepted" %}<span class="accepted-label">Accepted on <time datetime="{{ publication.acceptedDate | escape }}">{{ publication.acceptedDate | escape }}</time>.</span>{% endif %} {% if publication.doi %}<a class="publication-doi" href="{{ publication.doi | escape }}" target="_blank" rel="noopener noreferrer">[DOI]</a>{% endif %}{% if publication.onlineYear and publication.onlineYear != publication.year %}<span class="publication-meta">First published online in {{ publication.onlineYear }}; issue year {{ publication.year }}.</span>{% endif %}</li>
