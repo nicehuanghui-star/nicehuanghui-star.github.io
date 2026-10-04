@@ -194,6 +194,36 @@
       }
     }
   ],
+  "current_students": {
+    "masters": [
+      {
+        "name": "Shiquan Lin",
+        "start": "2025-09",
+        "period": "September 2025–present",
+        "research": "Pre-Upload Update Utility Prediction for Communication-Efficient Federated Activity Recognition in Health Monitoring"
+      },
+      {
+        "name": "Xiaohan Chen",
+        "start": "2026-09",
+        "period": "September 2026–present",
+        "research": "Functional Specialization-Aware Mixture-of-Policies for Adaptive Task Offloading in Non-Stationary Edge Computing"
+      },
+      {
+        "name": "Niteesh Kunwar",
+        "start": "2025-09",
+        "period": "September 2025–present",
+        "research": "Participant-Bound Verifiable Privacy-Preserving Data Aggregation for Selective Wearable IoT"
+      }
+    ],
+    "undergraduates": [
+      {
+        "name": "Qian Fang",
+        "start": "2025-09",
+        "period": "September 2025–present",
+        "research": "Long-Horizon UAV Trajectory Forecasting for Reliable Proactive Service Association"
+      }
+    ]
+  },
   "supervision": [
     {
       "name": {
@@ -272,7 +302,7 @@
       "items": [
         {
           "title": "IEEE ICC",
-          "dates": "2027"
+          "dates": "2025, 2027"
         },
         {
           "title": "IEEE GLOBECOM",
@@ -322,13 +352,6 @@
           "dates": "2024"
         }
       ]
-    },
-    {
-      "title": {
-        "zh": "国家优秀海外博士生奖学金",
-        "en": "National Scholarship for Outstanding Doctoral Students Abroad"
-      },
-      "dates": "2021"
     }
   ],
   "biography_zh": [

@@ -1,4 +1,4 @@
-<section id="biography" class="academic-section">
+<section id="biography" class="academic-section academic-biography">
   <h2>Biography</h2>
   {% for paragraph in site.data.huihuang.biography_en %}<p>{{ paragraph | escape }}</p>{% endfor %}
 </section>
@@ -19,7 +19,7 @@
   {% include huihuang/teaching.html %}
 </section>
 <section id="students" class="academic-section">
-  <h2>Undergraduate Supervision</h2>
+  <h2>Students</h2>
   {% include huihuang/students.html %}
 </section>
 <section id="service" class="academic-section">

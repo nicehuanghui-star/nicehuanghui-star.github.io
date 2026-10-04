@@ -7,11 +7,10 @@ author_profile: false
 
 <p class="cv-actions"><button type="button" class="btn btn--primary" id="print-cv">Print / Save as PDF</button></p>
 
-## Biography
-
-{% for paragraph in site.data.huihuang.biography_en %}
-{{ paragraph | markdownify }}
-{% endfor %}
+<section class="academic-section academic-biography">
+<h2>Biography</h2>
+{% for paragraph in site.data.huihuang.biography_en %}<p>{{ paragraph | escape }}</p>{% endfor %}
+</section>
 
 ## Research Interests
 
@@ -29,7 +28,7 @@ author_profile: false
 
 {% include huihuang/teaching.html %}
 
-## Undergraduate Supervision
+## Students
 
 {% include huihuang/students.html %}
 

@@ -1,4 +1,17 @@
-<p class="section-note">Supervised undergraduates from the 2022 entry cohort.</p>
+<h3>Current Master's Students</h3>
+<ul class="academic-list current-students">
+{% for student in site.data.huihuang.current_students.masters %}
+  <li><strong>{{ student.name | escape }}</strong> · {{ student.period | escape }}<span class="student-research"><strong>Research:</strong> {{ student.research | escape }}</span></li>
+{% endfor %}
+</ul>
+<h3>Current Undergraduate Students</h3>
+<ul class="academic-list current-students">
+{% for student in site.data.huihuang.current_students.undergraduates %}
+  <li><strong>{{ student.name | escape }}</strong> · {{ student.period | escape }}<span class="student-research"><strong>Research:</strong> {{ student.research | escape }}</span></li>
+{% endfor %}
+</ul>
+<h3>Undergraduate Alumni</h3>
+<p class="section-note">Graduated undergraduates from the 2022 entry cohort.</p>
 <ul class="academic-list">
 {% for student in site.data.huihuang.supervision %}
   <li><strong>{{ student.name.en | escape }}</strong>: {{ student.destination.en | escape }}.{% if student.award.en %} {{ student.award.en | escape }}.{% endif %}</li>

@@ -1,6 +1,6 @@
 ---
 layout: academic
-title: "Undergraduate Supervision"
+title: "Students"
 permalink: /students/
 author_profile: false
 ---
