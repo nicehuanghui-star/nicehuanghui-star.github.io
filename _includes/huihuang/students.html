@@ -10,10 +10,9 @@
   <li><strong>{{ student.name | escape }}</strong> · {{ student.period | escape }}<span class="student-research"><strong>Research:</strong> {{ student.research | escape }}</span></li>
 {% endfor %}
 </ul>
-<h3>Undergraduate Alumni</h3>
-<p class="section-note">Graduated undergraduates from the 2022 entry cohort.</p>
-<ul class="academic-list">
+<h3>Graduated Undergraduate Students</h3>
+<ul class="academic-list graduated-students">
 {% for student in site.data.huihuang.supervision %}
-  <li><strong>{{ student.name.en | escape }}</strong>: {{ student.destination.en | escape }}.{% if student.award.en %} {{ student.award.en | escape }}.{% endif %}</li>
+  <li><strong>{{ student.name.en | escape }}</strong>: {{ student.destination.en | escape }}{% if student.award.en %}; awarded a <strong>{{ student.award.en | escape }}</strong>{% endif %}.</li>
 {% endfor %}
 </ul>
