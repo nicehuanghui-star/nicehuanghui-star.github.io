@@ -1,23 +1,23 @@
 ---
 layout: single
-title: "个人简介 · Biography"
+title: "Biography"
 permalink: /
 author_profile: true
 ---
 
-<p class="language-links"><a href="{{ '/en/' | relative_url }}" lang="en">English biography</a> · <a href="{{ '/cv/' | relative_url }}">完整简历</a></p>
+<p class="language-links"><a href="{{ '/cv/' | relative_url }}">View full CV</a></p>
 
-{% for paragraph in site.data.huihuang.biography_zh %}
+{% for paragraph in site.data.huihuang.biography_en %}
 {{ paragraph | markdownify }}
 {% endfor %}
 
-## 研究方向
+## Research Interests
 
 {% include huihuang/research.html %}
 
-## 联系方式
+## Contact
 
-邮箱：[huihuang@hainanu.edu.cn](mailto:huihuang@hainanu.edu.cn)  
-单位：海南大学计算机科学与技术学院
+Email: [huihuang@hainanu.edu.cn](mailto:huihuang@hainanu.edu.cn)  
+School of Computer Science and Technology, Hainan University
 
-<p class="profile-updated">更新日期：{{ site.data.huihuang.updated }}</p>
+<p class="profile-updated">Updated: {{ site.data.huihuang.updated }}</p>

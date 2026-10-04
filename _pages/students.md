@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "本科生指导 · Supervision"
+title: "Undergraduate Supervision"
 permalink: /students/
 author_profile: true
 ---

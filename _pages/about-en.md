@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Hui Huang · Biography"
+title: "Biography"
 permalink: /en/
 author_profile: true
 ---
 
-<p class="language-links"><a href="{{ '/' | relative_url }}" lang="zh-CN">中文简介</a> · <a href="{{ '/cv/' | relative_url }}">CV / 简历</a></p>
+<p class="language-links"><a href="{{ '/cv/' | relative_url }}">View full CV</a></p>
 
 {% for paragraph in site.data.huihuang.biography_en %}
 {{ paragraph | markdownify }}
@@ -13,9 +13,7 @@ author_profile: true
 
 ## Research Interests
 
-{% for item in site.data.huihuang.research %}
-- **{{ item.title.en }}** — {{ item.detail.en }}
-{% endfor %}
+{% include huihuang/research.html %}
 
 ## Contact
 

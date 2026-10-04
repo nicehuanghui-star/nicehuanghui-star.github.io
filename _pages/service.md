@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "学术服务 · Professional Activities"
+title: "Professional Activities"
 permalink: /service/
 author_profile: true
 ---

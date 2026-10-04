@@ -1,9 +1,9 @@
 {% for item in site.data.huihuang.service %}
-<h3>{{ item.title.zh | escape }} / {{ item.title.en | escape }}</h3>
+<h3>{{ item.title.en | escape }}</h3>
 {% if item.items %}
 <ul>
 {% for entry in item.items %}
-  <li>{{ entry.title | escape }} · {% if entry.dates.zh %}{{ entry.dates.zh | escape }}{% else %}{{ entry.dates | escape }}{% endif %}</li>
+  <li>{{ entry.title | escape }} · {% if entry.dates.en %}{{ entry.dates.en | escape }}{% else %}{{ entry.dates | escape }}{% endif %}</li>
 {% endfor %}
 </ul>
 {% elsif item.detail %}

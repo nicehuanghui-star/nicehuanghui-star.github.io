@@ -1,6 +1,6 @@
-<p class="publication-note">列出 10 篇已发表论文及 2 篇已录用论文；已录用论文单独标注，不作为已正式发表的卷期记录。</p>
+<p class="publication-note">This list includes 10 published papers and 2 accepted papers. Accepted papers are listed separately from formally published articles.</p>
 
-<h3>已录用论文 / Accepted Papers</h3>
+<h3>Accepted Papers</h3>
 <ol class="hui-publications">
 {% assign accepted = site.data.huihuang.publications | where: "status", "accepted" | sort: "acceptedDate" | reverse %}
 {% for publication in accepted %}
@@ -8,7 +8,7 @@
 {% endfor %}
 </ol>
 
-<h3>期刊论文 / Journal Articles</h3>
+<h3>Journal Articles</h3>
 <ol class="hui-publications">
 {% for publication in site.data.huihuang.publications %}
 {% if publication.type == "journal" and publication.status != "accepted" %}
@@ -17,7 +17,7 @@
 {% endfor %}
 </ol>
 
-<h3>会议论文 / Conference Papers</h3>
+<h3>Conference Papers</h3>
 <ol class="hui-publications">
 {% for publication in site.data.huihuang.publications %}
 {% if publication.type == "conference" and publication.status != "accepted" %}

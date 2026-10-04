@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "荣誉奖励 · Honors"
+title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---

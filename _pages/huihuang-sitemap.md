@@ -1,15 +1,14 @@
 ---
 layout: single
-title: "站点导航 · Sitemap"
+title: "Sitemap"
 permalink: /sitemap/
 author_profile: true
 ---
 
-- [个人简介]({{ '/' | relative_url }})
-- [英文简介]({{ '/en/' | relative_url }})
-- [代表论文]({{ '/publications/' | relative_url }})
-- [科研项目]({{ '/projects/' | relative_url }})
-- [本科生指导]({{ '/students/' | relative_url }})
-- [学术服务]({{ '/service/' | relative_url }})
-- [荣誉奖励]({{ '/awards/' | relative_url }})
-- [个人简历]({{ '/cv/' | relative_url }})
+- [Biography]({{ '/' | relative_url }})
+- [Publications]({{ '/publications/' | relative_url }})
+- [Research Projects]({{ '/projects/' | relative_url }})
+- [Undergraduate Supervision]({{ '/students/' | relative_url }})
+- [Professional Activities]({{ '/service/' | relative_url }})
+- [Honors and Awards]({{ '/awards/' | relative_url }})
+- [Curriculum Vitae]({{ '/cv/' | relative_url }})

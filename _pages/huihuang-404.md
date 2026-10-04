@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "页面未找到 · Page not found"
+title: "Page Not Found"
 permalink: /404.html
 author_profile: true
 ---
 
-请返回[个人主页]({{ '/' | relative_url }})，或查看[个人简历]({{ '/cv/' | relative_url }})。
+Return to the [homepage]({{ '/' | relative_url }}) or view my [CV]({{ '/cv/' | relative_url }}).

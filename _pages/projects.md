@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "科研项目 · Projects"
+title: "Research Projects"
 permalink: /projects/
 author_profile: true
 ---

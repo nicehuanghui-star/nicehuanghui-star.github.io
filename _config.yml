@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "黄晖 / Hui Huang"
+title                    : "Hui Huang"
 title_separator          : "-"
-name                     : &name "黄晖 / Hui Huang"
-description              : &description "海南大学副教授 · 深度强化学习、边缘计算与边缘智能"
+name                     : &name "Hui Huang"
+description              : &description "Associate Professor at Hainan University. Deep reinforcement learning, edge computing, and edge intelligence."
 url                      : https://nicehuanghui-star.github.io # GitHub user homepage
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,11 +24,11 @@ repository               : "nicehuanghui-star/nicehuanghui-star.github.io"
 author:
   # Biographic information
   avatar           : "hui-huang.jpg"
-  name             : "黄晖 / Hui Huang"
+  name             : "Hui Huang"
   pronouns         : # example: "she/her"  
-  bio              : "副教授 · 工学博士<br>深度强化学习 / 边缘智能"
-  location         : "海南，中国"
-  employer         : "海南大学计算机科学与技术学院"
+  bio              : "Associate Professor, Ph.D.<br>Deep Reinforcement Learning / Edge Intelligence"
+  location         : "Hainan, China"
+  employer         : "School of Computer Science and Technology, Hainan University"
   uri              : # URL
   email            : "huihuang@hainanu.edu.cn"
 

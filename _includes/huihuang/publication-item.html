@@ -3,9 +3,9 @@
   {% if publication.authors %}<p>{{ publication.authors | escape }}</p>{% endif %}
   <p class="publication-meta">{{ publication.venue | escape }}{% if publication.year %} · {{ publication.year }}{% endif %}</p>
   {% if publication.status == "accepted" %}
-    <p class="accepted-label">已录用 / Accepted · 录用日期：{{ publication.acceptedDate | escape }}</p>
+    <p class="accepted-label">Accepted · Acceptance date: {{ publication.acceptedDate | escape }}</p>
   {% elsif publication.onlineYear and publication.onlineYear != publication.year %}
-    <p class="publication-meta">首次在线发表：{{ publication.onlineYear }} · 卷期年份：{{ publication.year }}</p>
+    <p class="publication-meta">First published online: {{ publication.onlineYear }} · Issue year: {{ publication.year }}</p>
   {% endif %}
-  {% if publication.doi %}<p><a href="{{ publication.doi | escape }}" target="_blank" rel="noopener noreferrer">DOI / 出版页面</a></p>{% endif %}
+  {% if publication.doi %}<p><a href="{{ publication.doi | escape }}" target="_blank" rel="noopener noreferrer">DOI / Publisher page</a></p>{% endif %}
 </li>

@@ -1,15 +1,15 @@
 main:
-  - title: "个人简介"
+  - title: "Biography"
     url: /
-  - title: "论文"
+  - title: "Publications"
     url: /publications/
-  - title: "项目"
+  - title: "Projects"
     url: /projects/
-  - title: "本科生指导"
+  - title: "Students"
     url: /students/
-  - title: "学术服务"
+  - title: "Service"
     url: /service/
-  - title: "荣誉"
+  - title: "Honors"
     url: /awards/
-  - title: "简历"
+  - title: "CV"
     url: /cv/
