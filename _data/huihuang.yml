@@ -19,7 +19,7 @@
     "zh": "",
     "en": "Room 1117, Agricultural Science Buildings, Haidian Campus, Hainan University"
   },
-  "scholar": "",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=x9Tp7L4AAAAJ&view_op=list_works&sortby=pubdate",
   "github": "",
   "orcid": "",
   "cv": "",
@@ -144,6 +144,15 @@
       "shortVenue": "GLOBECOM"
     },
     {
+      "title": "On the Placement of Edge Servers in Mobile Edge Computing",
+      "authors": "Haotian Liu, Shiyun Wang, Hui Huang, Qiang Ye",
+      "venue": "International Conference on Computing, Networking and Communications (ICNC), pp. 496–500",
+      "year": 2023,
+      "type": "conference",
+      "doi": "https://doi.org/10.1109/ICNC57223.2023.10074304",
+      "shortVenue": "ICNC"
+    },
+    {
       "title": "Deadline-Aware Task Offloading With Partially-Observable Deep Reinforcement Learning for Multi-Access Edge Computing",
       "authors": "Hui Huang, Qiang Ye, Yitong Zhou",
       "venue": "IEEE Transactions on Network Science and Engineering, vol. 9, no. 6, pp. 3870–3885",
@@ -180,6 +189,33 @@
       "type": "journal",
       "doi": "https://doi.org/10.1109/TII.2019.2953932",
       "shortVenue": "TII"
+    },
+    {
+      "title": "Outlier Detection Forest for Large-Scale Categorical Data Sets",
+      "authors": "Zhipeng Sun, Hongwei Du, Qiang Ye, Chuang Liu, Patricia Lilian Kibenge, Hui Huang, Yuying Li",
+      "venue": "International Conference on Computational Data and Social Networks (CSoNet), Lecture Notes in Computer Science, vol. 11917, pp. 45–56",
+      "year": 2019,
+      "type": "conference",
+      "doi": "https://doi.org/10.1007/978-3-030-34980-6_4",
+      "shortVenue": "CSoNet"
+    },
+    {
+      "title": "Double-Q Learning-Based DVFS for Multi-core Real-Time Systems",
+      "authors": "Hui Huang, Man Lin, Qingchen Zhang",
+      "venue": "IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData), pp. 522–529",
+      "year": 2017,
+      "type": "conference",
+      "doi": "https://doi.org/10.1109/iThings-GreenCom-CPSCom-SmartData.2017.83",
+      "shortVenue": "iThings"
+    },
+    {
+      "title": "A Graph-Based Clustering Algorithm for Anomaly Intrusion Detection",
+      "authors": "Mingqiang Zhou, Hui Huang, Qian Wang",
+      "venue": "7th International Conference on Computer Science & Education (ICCSE), pp. 1311–1314",
+      "year": 2012,
+      "type": "conference",
+      "doi": "https://doi.org/10.1109/ICCSE.2012.6295306",
+      "shortVenue": "ICCSE"
     }
   ],
   "projects": [

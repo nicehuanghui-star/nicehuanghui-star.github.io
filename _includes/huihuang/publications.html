@@ -1,8 +1,9 @@
-<p class="publication-note">This list includes 10 published papers and 2 accepted papers. Accepted papers are listed separately from formally published articles.</p>
+{% assign accepted = site.data.huihuang.publications | where: "status", "accepted" | sort: "acceptedDate" | reverse %}
+{% assign published_count = site.data.huihuang.publications.size | minus: accepted.size %}
+<p class="publication-note">This list includes {{ published_count }} published papers and {{ accepted.size }} accepted papers. Accepted papers are listed separately from formally published articles. <a href="{{ site.data.huihuang.scholar | escape }}" target="_blank" rel="noopener noreferrer">[Google Scholar]</a></p>
 
 <h3>Accepted Papers</h3>
 <ul class="hui-publications">
-{% assign accepted = site.data.huihuang.publications | where: "status", "accepted" | sort: "acceptedDate" | reverse %}
 {% for publication in accepted %}
 {% include huihuang/publication-item.html %}
 {% endfor %}
