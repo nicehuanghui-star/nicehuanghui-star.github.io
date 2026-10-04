@@ -1,6 +1,6 @@
 <section id="biography" class="academic-section academic-biography">
   <h2>Biography</h2>
-  {% for paragraph in site.data.huihuang.biography_en %}<p>{{ paragraph | escape }}</p>{% endfor %}
+  {% for paragraph in site.data.huihuang.biography_en %}{{ paragraph | escape | markdownify }}{% endfor %}
 </section>
 <section id="research" class="academic-section">
   <h2>Research Interests</h2>

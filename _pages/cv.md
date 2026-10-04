@@ -9,7 +9,7 @@ author_profile: false
 
 <section class="academic-section academic-biography">
 <h2>Biography</h2>
-{% for paragraph in site.data.huihuang.biography_en %}<p>{{ paragraph | escape }}</p>{% endfor %}
+{% for paragraph in site.data.huihuang.biography_en %}{{ paragraph | escape | markdownify }}{% endfor %}
 </section>
 
 ## Research Interests
