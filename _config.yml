@@ -13,10 +13,10 @@ title                    : "Hui Huang"
 title_separator          : "-"
 name                     : &name "Hui Huang"
 description              : &description "Associate Professor at Hainan University. Deep reinforcement learning, edge computing, and edge intelligence."
-url                      : https://nicehuanghui-star.github.io # GitHub user homepage
+url                      : https://nicehuanghui.github.io # GitHub user homepage
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "nicehuanghui-star/nicehuanghui-star.github.io"
+repository               : "nicehuanghui/nicehuanghui.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "nicehuanghui-star"
+  github           : "nicehuanghui"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

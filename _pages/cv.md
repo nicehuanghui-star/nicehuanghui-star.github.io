@@ -42,6 +42,8 @@ author_profile: false
 
 ## Contact
 
+**Office:** {{ site.data.huihuang.office.en | escape }}
+
 [huihuang@hainanu.edu.cn](mailto:huihuang@hainanu.edu.cn)
 
 <p class="profile-updated">Updated: {{ site.data.huihuang.updated }}</p>

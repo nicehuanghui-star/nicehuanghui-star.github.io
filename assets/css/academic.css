@@ -20,6 +20,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--academic-blue);
 .academic-identity h1 { margin: -4px 0 4px; font-size: 48px; line-height: 1.2; font-weight: 700; }
 .academic-position { margin: 10px 0 26px; font-size: 28px; font-style: italic; line-height: 1.3; }
 .academic-affiliation { margin: 0 0 20px; font-size: 26px; line-height: 1.35; }
+.academic-office { margin: 0 0 12px; max-width: 740px; font-size: 21px; line-height: 1.45; }
 .academic-contact { margin: 0; font-size: 24px; line-height: 1.45; }
 .academic-contact a[href^="mailto:"] { color: inherit; text-decoration: none; }
 .academic-contact a[href^="mailto:"]:hover { color: var(--academic-blue); text-decoration: underline; }
@@ -64,6 +65,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--academic-blue);
   .academic-position { font-size: 20px; margin: 8px 0 16px; }
   .academic-affiliation { font-size: 17px; margin-bottom: 14px; }
   .academic-contact { font-size: 17px; }
+  .academic-office { font-size: 17px; }
   .academic-navigation { margin-bottom: 30px; padding-top: 12px; }
   .academic-navigation ul { font-size: 17px; gap: 0 16px; }
   .academic-navigation li, .academic-navigation li:first-child { border: none; padding: 0; }
@@ -83,7 +85,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--academic-blue);
   .academic-position { grid-column: 2; }
   .academic-affiliation { grid-column: 1 / -1; margin-top: 16px; }
   .academic-contact { grid-column: 1 / -1; }
-  .academic-affiliation, .academic-contact { font-size: 16px; }
+  .academic-office { grid-column: 1 / -1; }
+  .academic-affiliation, .academic-contact, .academic-office { font-size: 16px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {
@@ -94,7 +97,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--academic-blue);
   .academic-profile { gap: 18px; padding-bottom: 20px; }
   .academic-portrait { width: 80px; }
   .academic-identity h1 { font-size: 22pt; }
-  .academic-position, .academic-affiliation, .academic-contact { font-size: 11pt; margin: 4px 0; }
+  .academic-position, .academic-affiliation, .academic-contact, .academic-office { font-size: 11pt; margin: 4px 0; }
   .academic-content h2 { font-size: 16pt; break-after: avoid; margin-bottom: 12px; }
   .academic-content h3 { font-size: 12pt; break-after: avoid; }
   .academic-section { margin-bottom: 24px; }

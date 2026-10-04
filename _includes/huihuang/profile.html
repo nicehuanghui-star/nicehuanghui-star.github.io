@@ -4,6 +4,7 @@
     <h1>{{ site.data.huihuang.name.en | escape }}</h1>
     <p class="academic-position">Associate Professor</p>
     <p class="academic-affiliation">School of Computer Science and Technology<br>Hainan University, China</p>
+    {% if site.data.huihuang.office.en %}<p class="academic-office"><strong>Office:</strong> {{ site.data.huihuang.office.en | escape }}</p>{% endif %}
     <p class="academic-contact"><strong>Email:</strong> <a href="mailto:{{ site.data.huihuang.email | escape }}">{{ site.data.huihuang.email | escape }}</a><br><a href="{{ '/cv/' | relative_url }}">Full CV</a></p>
   </div>
 </header>
