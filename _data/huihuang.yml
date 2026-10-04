@@ -31,42 +31,26 @@
   "research": [
     {
       "title": {
-        "zh": "边缘计算与实时任务卸载",
-        "en": "Edge Computing & Real-Time Task Offloading"
+        "en": "Edge Intelligence & Real-Time Computing"
       },
       "detail": {
-        "zh": "面向移动与多接入边缘计算的任务卸载、资源分配及截止期感知决策。",
-        "en": "Task offloading, resource allocation, and deadline-aware decisions in mobile and multi-access edge computing."
+        "en": "Learning-based task offloading, resource allocation, and adaptive decision-making in dynamic edge systems."
       }
     },
     {
       "title": {
-        "zh": "深度强化学习与安全决策",
-        "en": "Deep Reinforcement Learning & Safe Decisions"
+        "en": "Safe & Distributed Learning"
       },
       "detail": {
-        "zh": "部分可观测环境下的强化学习与安全关键卸载的约束建模。",
-        "en": "Reinforcement learning under partial observability and constrained decision-making for safety-critical offloading."
+        "en": "Safe reinforcement learning, multi-agent coordination, and communication-efficient federated learning."
       }
     },
     {
       "title": {
-        "zh": "边缘智能与分布式学习",
-        "en": "Edge Intelligence & Distributed Learning"
+        "en": "UAV & Healthcare Edge Systems"
       },
       "detail": {
-        "zh": "分布式编码机器学习中的工作负载分配、工作节点选择及多智能体方法。",
-        "en": "Workload allocation, worker selection, and multi-agent methods for distributed coded machine learning."
-      }
-    },
-    {
-      "title": {
-        "zh": "智慧医疗与绿色计算",
-        "en": "Intelligent Healthcare & Green Computing"
-      },
-      "detail": {
-        "zh": "面向智慧康养的移动边缘计算，以及基于强化学习的功耗管理。",
-        "en": "Mobile edge computing for intelligent healthcare and reinforcement learning for power management."
+        "en": "Resource-efficient UAV computing, wearable IoT, and trustworthy intelligent healthcare."
       }
     }
   ],
@@ -326,6 +310,11 @@
       "title": {
         "zh": "算法分析与设计",
         "en": "Algorithm Analysis and Design"
+      }
+    },
+    {
+      "title": {
+        "en": "Advanced Research Methodology"
       }
     }
   ],
