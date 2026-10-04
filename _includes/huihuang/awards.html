@@ -1,0 +1,12 @@
+{% for item in site.data.huihuang.awards %}
+<h3>{{ item.title.zh | escape }} / {{ item.title.en | escape }}</h3>
+{% if item.items %}
+<ul>
+{% for entry in item.items %}
+  <li>{{ entry.title | escape }} · {{ entry.dates | escape }}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p>{{ item.dates | escape }}</p>
+{% endif %}
+{% endfor %}

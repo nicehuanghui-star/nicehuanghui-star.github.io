@@ -1,4 +1,42 @@
-# Academic Pages
+# 黄晖 / Hui Huang · Academic Homepage
+
+基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 模板制作的 GitHub Pages 学术简历。
+
+目标仓库：`nicehuanghui-star/nicehuanghui-star.github.io`  
+目标网址：`https://nicehuanghui-star.github.io/`（仅在实际部署成功后可访问）
+
+## 内容维护
+
+- `_data/huihuang.yml`：已确认的个人简介、论文、项目、学生指导、学术服务与荣誉。
+- `_config.yml`：姓名、侧栏信息、头像和站点地址。
+- `_data/navigation.yml`：栏目导航。
+- `_pages/`：首页、英文简介、论文、项目、学生指导、服务、荣誉和简历页。
+- `assets/css/huihuang.css`：少量中文排版、学生表格和打印样式调整。
+
+未单列教育及工作经历；它们合并在个人简介中。个人简介中已删除用户指定的近期论文录用介绍与四位本科生指导介绍，独立论文与本科生指导栏目保留。两篇录用论文不虚构正式发表年份、卷期或 DOI。
+
+## 发布
+
+仓库名必须与账号匹配，即 `nicehuanghui-star.github.io`。在仓库 Settings → Pages 中选 Deploy from a branch，再选择默认分支与 / (root)。此项目使用 Jekyll，不要添加 `.nojekyll`，也不要用之前纯静态网站的 `index.html` 覆盖模板首页。
+
+## 本地预览
+
+安装 Ruby 与 Bundler 后运行：
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+打开终端返回的本地地址。简历页的打印按钮可通过浏览器保存为 PDF。
+
+## 隐私与授权
+
+只包含个人学术简历与模板资源，不含基金申请正文、邮件截图、来源核对记录、密码或令牌。模板示例页和示例成果在站点配置中排除，不作为本人经历发表。模板沿用仓库 LICENSE 中的 MIT 许可证；个人照片与个人资料不因此授予额外肖像或资料使用许可。
+
+---
+
+# Academic Pages（原模板说明）
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")

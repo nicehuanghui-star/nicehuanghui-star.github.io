@@ -1,0 +1,17 @@
+{% for item in site.data.huihuang.service %}
+<h3>{{ item.title.zh | escape }} / {{ item.title.en | escape }}</h3>
+{% if item.items %}
+<ul>
+{% for entry in item.items %}
+  <li>{{ entry.title | escape }} · {% if entry.dates.zh %}{{ entry.dates.zh | escape }}{% else %}{{ entry.dates | escape }}{% endif %}</li>
+{% endfor %}
+</ul>
+{% elsif item.detail %}
+<ul>
+{% assign venues = item.detail | newline_to_br | split: '<br />' %}
+{% for venue in venues %}
+  <li>{{ venue | strip | escape }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}

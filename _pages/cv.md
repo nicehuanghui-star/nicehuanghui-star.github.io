@@ -1,64 +1,44 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "个人简历 · Curriculum Vitae"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+<p class="cv-actions"><button type="button" class="btn btn--primary" id="print-cv">打印 / 保存为 PDF</button> · <a href="{{ '/en/' | relative_url }}">English biography</a></p>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 个人简介
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+{% for paragraph in site.data.huihuang.biography_zh %}
+{{ paragraph | markdownify }}
+{% endfor %}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## 研究方向
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{% include huihuang/research.html %}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## 科研项目
+
+{% include huihuang/projects.html %}
+
+## 代表论文
+
+{% include huihuang/publications.html %}
+
+## 本科生指导
+
+{% include huihuang/students.html %}
+
+## 学术服务
+
+{% include huihuang/service.html %}
+
+## 荣誉奖励
+
+{% include huihuang/awards.html %}
+
+## 联系方式
+
+[huihuang@hainanu.edu.cn](mailto:huihuang@hainanu.edu.cn)
+
+<p class="profile-updated">更新日期：{{ site.data.huihuang.updated }}</p>

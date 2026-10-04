@@ -1,0 +1,27 @@
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+.page__content { line-height: 1.85; }
+.page__content h2 { margin-top: 2rem; }
+.author__avatar img { border-radius: 8px; max-width: 175px; }
+.language-links, .profile-updated, .publication-meta, .publication-note { color: var(--global-text-color-light, #64748b); font-size: .88em; }
+.hui-publications { padding-left: 1.4rem; }
+.hui-publication { margin: 0 0 1.6rem; padding-left: .25rem; }
+.hui-publication p { margin: .35rem 0; }
+.accepted-label { font-size: .88em; color: var(--global-link-color, #3577a8); }
+.student-table { width: 100%; font-size: .9em; }
+.student-table caption { text-align: left; padding: 0 0 1rem; }
+.student-table th, .student-table td { white-space: normal; overflow-wrap: anywhere; vertical-align: top; }
+.student-table-wrap { overflow-x: auto; }
+@media (max-width: 600px) {
+  .student-table th, .student-table td { padding: .6rem .4rem; }
+  .page__content { font-size: .95em; }
+}
+@media print {
+  @page { size: A4; margin: 16mm; }
+  .masthead, .sidebar, .page__footer, .cv-actions, .language-links, .page__meta { display: none !important; }
+  #main, .page { width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; float: none !important; }
+  .page__content { font-size: 10pt; line-height: 1.5; }
+  .page__content h2, .page__content h3 { break-after: avoid; }
+  .hui-publication, .student-table tr { break-inside: avoid; }
+  .student-table-wrap { overflow: visible; }
+  a { color: inherit !important; }
+}
